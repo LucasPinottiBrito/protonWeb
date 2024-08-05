@@ -1,0 +1,35 @@
+:root{
+    --bs-body-font-family: 'Blinker', sans-serif;
+}
+.bg-darkgray{
+    background-color: #101010;
+}
+.bg-custom-split{
+    background: linear-gradient(90deg, #101010 50%, #27599E 50%)
+}
+
+.bg-custom-img{
+    background: url(/assets/img/custom-background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.custom-text-bottom-line{
+    background: linear-gradient(90deg, #27599E 50%, #101010 50%);
+    min-height: 10px;
+    height: 10px;
+    min-width: 235px;
+}
+
+@media screen and (max-width: 530px){
+    .bg-custom-split{
+        background: #101010;
+    };
+    .custom-dark-toogle-color{
+        color: #fff;
+    }
+    .custom-text-bottom-line{
+        display: none;
+    }
+}
